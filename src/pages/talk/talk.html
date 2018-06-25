@@ -1,0 +1,27 @@
+<ion-content padding style="background:url(assets/img/MMz7orXfTpitnmNtvgL7_Filtre4_reduce.png) no-repeat center;background-size:cover;" id="page3">
+  <img src="assets/img/8B9QXBvQI2xBeNhp3aXF_Logo_sans_bord.png" style="display:block;max-width:50%;height:auto;margin: 15% auto;" />
+  <div style="max-width:600px;margin:10% auto;">
+  <div id="talk-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+    <h4 style="color:#FFFFFF;width:80%;text-align:center;margin-left:10%; margin-bottom:20%;">
+      Dites nous en plus sur ce que vous rechercher, nous vous aiderons à trouver le job de vos rêves !
+    </h4>
+  </div>
+  <div id="talk-markdown5" style="text-align:center;" class="show-list-numbers-and-dots">
+    <p style="color:#FFFFFF;width:80%;text-align:center;margin-left:10%;margin-bottom:20%;">
+      Parlez nous de vous, votre personnalité, vos qualités et compétences !
+    </p>
+  </div>
+  </div>
+  <div>
+    <a style="display:block;" (click)="stopRecord()" *ngIf="recording">
+		<img src="assets/img/hotspot_pulse-1.gif" style="display:block;width:120px;height:auto;margin-left:auto;margin-right:auto;" />
+      
+    </a>
+  </div>
+  <div>
+    <a style="display:block;" (click)="startRecord()" *ngIf="!recording">
+      <img src="assets/img/c0j3oAZvQfKGhBrOVSrB_radio-microphone.png" style="display:block;width:60px;height:auto;margin-left:auto;margin-right:auto;" />
+    </a>
+  </div>
+  
+</ion-content>
