@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ProfilePage } from '../profile/profile';
+import { TalkPage } from '../talk/talk';
+import { SearchingPage } from '../searching/searching';
 
 @Component({
   selector: 'page-signup',
@@ -12,6 +13,9 @@ export class SignupPage {
   }
   goToTalk(params){
     if (!params) params = {};
-    this.navCtrl.push(ProfilePage);
+    this.navCtrl.push(TalkPage);
+  }goToSearching(params){
+    if (!params) params = {};
+    this.navCtrl.push(SearchingPage);
   }
 }

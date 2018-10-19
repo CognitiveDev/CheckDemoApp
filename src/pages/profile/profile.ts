@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { ProfilePage } from '../profile/profile';
+import { TalkPage } from '../talk/talk';
 
 @Component({
-  selector: 'page-signup',
-  templateUrl: 'signup.html'
+  selector: 'page-profile',
+  templateUrl: 'profile.html'
 })
-export class SignupPage {
+export class ProfilePage {
 
   constructor(public navCtrl: NavController) {
   }
   goToTalk(params){
     if (!params) params = {};
-    this.navCtrl.push(ProfilePage);
+    this.navCtrl.push(TalkPage);
   }
 }

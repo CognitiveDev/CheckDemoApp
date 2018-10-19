@@ -1,19 +1,28 @@
 <ion-content padding id="page2">
-	<div style="max-width:418px;width:60%; margin-left:auto; margin-right:auto;margin-top:20%;max-width:250px;">
+  <div style="max-width:418px;width:30%; margin-left:auto; margin-right:auto;margin-top:12%;">
   <img src="assets/img/kRZRM4QOCg0eusOHRMig_logoCheck_reduce.png" style="display:block;height:auto;margin-left:auto;margin-right:auto;" />
   </div>
-  <div style="max-width:500px;margin-left:auto;margin-right:auto;margin-top:10%;" >
+  <div style="max-width:500px;margin-left:auto;margin-right:auto;margin-top:5%;" >
   <h3 id="signup-heading1" style="color:#C6C6C6;font-weight:lighter;text-align:center;display:block;">
-    Connectez-vous à l'application
+    Créer votre profil
   </h3>
   <form id="signup-form1">
     <ion-item id="signup-input1" class="input" style="margin-bottom:20px;">
-      <ion-input type="text" placeholder="Identifiant"></ion-input>
+      <ion-input type="text" placeholder="Prénom"></ion-input>
+    </ion-item>
+    <ion-item id="signup-input4" class="input" style="margin-bottom:20px;">
+      <ion-input type="text" placeholder="Nom"></ion-input>
+    </ion-item>
+    <ion-item id="signup-input5" class="input" style="margin-bottom:20px;">
+      <ion-input type="tel" placeholder="Portable"></ion-input>
+    </ion-item>
+    <ion-item id="signup-input2" class="input" style="margin-bottom:20px;">
+      <ion-input type="email" placeholder="Email "></ion-input>
     </ion-item>
     <ion-item id="signup-input3" class="input" style="margin-bottom:20px;">
       <ion-input type="password" placeholder="Mot de passe"></ion-input>
     </ion-item>
-    <button id="signup-button1" ion-button color="dark" block style="color:#FFFFFF;border-radius:10px;width:50%;margin:50px auto;" (click)='openFilters()'>
+    <button id="signup-button1" ion-button color="dark" block style="color:#FFFFFF;border-radius:10px;width:50%;margin:50px auto;" on-click="goToTalk()">
       Connexion
     </button>
     <div id="signup-markdown2" style="text-align:center;" class="show-list-numbers-and-dots">
@@ -23,7 +32,7 @@
     </div>
   </form>
   <hr width=1OO% align="center">
-  	<div style="max-width:70%;margin-left:auto; margin-right:auto;margin-top:5%;">
+    <div style="max-width:418px;margin-left:auto; margin-right:auto;margin-top:5%;">
   <img src="assets/img/fb.png" style="display:block;height:auto;margin-left:auto;margin-right:auto;" />
   </div>
   </div>

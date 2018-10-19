@@ -6,6 +6,7 @@ import { HomePage } from '../pages/home/home';
 import { SignupPage } from '../pages/signup/signup';
 import { TalkPage } from '../pages/talk/talk';
 import { CheckPage } from '../pages/check/check';
+import { ProfilePage } from '../pages/profile/profile';
 import { SearchingPage } from '../pages/searching/searching';
 import { CheckListPage } from '../pages/check-list/check-list';
 import { Media } from '@ionic-native/media';
@@ -22,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TalkPage,
     CheckPage,
     SearchingPage,
-    CheckListPage
+    CheckListPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TalkPage,
     CheckPage,
     SearchingPage,
-    CheckListPage
+    CheckListPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
