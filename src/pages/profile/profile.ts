@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { TalkPage } from '../talk/talk';
+import { CheckPage } from '../check/check';
 
 @Component({
   selector: 'page-profile',
@@ -12,6 +13,7 @@ export class ProfilePage {
   }
   goToTalk(params){
     if (!params) params = {};
-    this.navCtrl.push(TalkPage);
+    this.navCtrl.push(CheckPage);
   }
 }
+

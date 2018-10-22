@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { TalkPage } from '../talk/talk';
 import { ProfilePage } from '../profile/profile';
 
 @Component({
@@ -12,6 +13,6 @@ export class SignupPage {
   }
   goToTalk(params){
     if (!params) params = {};
-    this.navCtrl.push(ProfilePage);
+    this.navCtrl.push(TalkPage);
   }
 }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, Platform } from 'ionic-angular';
 import { SearchingPage } from '../searching/searching';
-import { CheckPage } from '../check/check';
+import { ProfilePage } from '../profile/profile';
 import { Media, MediaObject } from '@ionic-native/media';
 
 @Component({
@@ -26,7 +26,7 @@ export class TalkPage {
 	this.navCtrl.push(SearchingPage);
 	setTimeout(() => 
 	{
-		this.navCtrl.push(CheckPage);
+		this.navCtrl.push(ProfilePage);
 	},
 	3000);
   }
@@ -58,7 +58,7 @@ export class TalkPage {
 		this.navCtrl.push(SearchingPage);
 		setTimeout(() => 
 		{
-			this.navCtrl.push(CheckPage);
+			this.navCtrl.push(ProfilePage);
 		},
 		3000);
 	}
