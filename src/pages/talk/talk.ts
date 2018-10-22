@@ -32,6 +32,7 @@ export class TalkPage {
   }
 	
 	startRecord() {
+	/*
 	  if (this.platform.is('ios')) {
 		this.fileName = 'record'+new Date().getDate()+new Date().getMonth()+new Date().getFullYear()+new Date().getHours()+new Date().getMinutes()+new Date().getSeconds()+'.3gp';
 		this.filePath = 'assets/img' + this.fileName;
@@ -42,18 +43,20 @@ export class TalkPage {
 		this.audio = this.media.create(this.filePath);
 	  }
 	  this.audio.startRecord();
+	  */
 	  this.recording = true;
 
 	}
 	
 	stopRecord(params) {
-		
+	/*
 	  this.audio.stopRecord();
 	  let data = { filename: this.fileName };
 	  this.audioList.push(data);
 	  localStorage.setItem("audiolist", JSON.stringify!(this.audioList));
 	  this.recording = false;
 	  this.sendObject()
+	  */
 	  if (!params) params = {}; 
 		this.navCtrl.push(SearchingPage);
 		setTimeout(() => 
